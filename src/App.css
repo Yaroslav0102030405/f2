@@ -178,6 +178,7 @@ body {
 }
 
 .error-message {
+  text-align: left;
   color: #f04438;
   font-size: 0.85rem;
   margin-top: 5px;
@@ -205,7 +206,8 @@ body {
   transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-.submit-button:hover {
+.submit-button:hover,
+.submit-button:focus {
   background-color: #0056b3;
 }
 
